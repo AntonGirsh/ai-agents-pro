@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-15",
+  "source": "wikipedia",
+  "question": "Who won the Miami Grand Prix sprint race in 2025?",
+  "answer": "Norris",
+  "evidence": "Norris wins chaotic Miami Sprint from Piastri and Hamilton after late Safety Car and multiple incidents.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "У меня нет информации о событиях после октября 2023 года. Чтобы узнать победителя спринт-заезда Гран-при Майами 2025 года, рекомендую проверить спортивные новости или официальный сайт Формулы-1. \n\nFINAL: Неизвестно.",
+ "correct": false,
+ "cost": 4.679999999999962e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the Miami Grand Prix sprint race in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": "У меня нет информации о событиях после октября 2023 года. Чтобы узнать победителя спринт-заезда Гран-при Майами 2025 года, рекомендую проверить спортивные новости или официальный сайт Формулы-1. \n\nFINAL: Неизвестно.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

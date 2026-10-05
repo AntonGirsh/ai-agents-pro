@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-28",
+  "source": "wikipedia",
+  "question": "Who won the Singapore Grand Prix in 2025?",
+  "answer": "Russell",
+  "evidence": "Russell storms to victory in Singapore as McLaren seal Teams' Championship amid Norris/Piastri clash.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "I don't have information on events that occurred after October 2021. Therefore, I cannot provide the winner of the Singapore Grand Prix in 2025. \n\nFINAL: Unknown",
+ "correct": false,
+ "cost": 3.38999999999999e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the Singapore Grand Prix in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information on events that occurred after October 2021. Therefore, I cannot provide the winner of the Singapore Grand Prix in 2025. \n\nFINAL: Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

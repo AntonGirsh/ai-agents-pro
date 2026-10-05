@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-33",
+  "source": "wikipedia",
+  "question": "Which two drivers were disqualified from the Las Vegas Grand Prix in 2025?",
+  "answer": "Norris and Piastri",
+  "evidence": "Norris and Piastri disqualified from Las Vegas GP as McLarens fail post-race inspection.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "I currently do not have access to information about events that occurred after October 2023, including the 2025 Las Vegas Grand Prix. Please check a reliable sports news source or the official Formula 1 website for the most accurate and updated information. \n\nFINAL: Information not available.",
+ "correct": false,
+ "cost": 4.80000000000003e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which two drivers were disqualified from the Las Vegas Grand Prix in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": "I currently do not have access to information about events that occurred after October 2023, including the 2025 Las Vegas Grand Prix. Please check a reliable sports news source or the official Formula 1 website for the most accurate and updated information. \n\nFINAL: Information not available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

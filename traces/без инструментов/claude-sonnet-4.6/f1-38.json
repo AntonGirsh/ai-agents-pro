@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-38",
+  "source": "wikipedia",
+  "question": "Who replaced Isack Hadjar at Racing Bulls for the 2026 Formula One season?",
+  "answer": "Arvid Lindblad",
+  "evidence": "Hadjar's replacement was Arvid Lindblad, who was promoted from Formula 2.",
+  "page": "2026 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+ },
+ "answer": "I need to check information about the 2026 Formula One season and Racing Bulls driver lineup.\n\nMy knowledge cutoff is early 2025, and I may not have confirmed information about 2026 F1 season driver lineups. Let me think about what I know.\n\nAs of my knowledge cutoff, Isack Hadjar was racing for Racing Bulls in 2025. I don't have confirmed information about who replaced him at Racing Bulls for the 2026 season.\n\nFINAL: I don't have confirmed information about the 2026 Racing Bulls lineup beyond my knowledge cutoff.",
+ "correct": false,
+ "cost": 0.0023700000000000943,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who replaced Isack Hadjar at Racing Bulls for the 2026 Formula One season?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to check information about the 2026 Formula One season and Racing Bulls driver lineup.\n\nMy knowledge cutoff is early 2025, and I may not have confirmed information about 2026 F1 season driver lineups. Let me think about what I know.\n\nAs of my knowledge cutoff, Isack Hadjar was racing for Racing Bulls in 2025. I don't have confirmed information about who replaced him at Racing Bulls for the 2026 season.\n\nFINAL: I don't have confirmed information about the 2026 Racing Bulls lineup beyond my knowledge cutoff.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

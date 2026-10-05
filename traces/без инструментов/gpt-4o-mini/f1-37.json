@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-37",
+  "source": "wikipedia",
+  "question": "Which team did Sergio Pérez and Valtteri Bottas join for full-time seats in the 2026 Formula One season?",
+  "answer": "Cadillac",
+  "evidence": "Sergio Pérez and Valtteri Bottas returned to full time seats with Cadillac.",
+  "page": "2026 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+ },
+ "answer": "As of my last update, Sergio Pérez and Valtteri Bottas were not confirmed to join specific teams for the 2026 Formula One season. To get the most accurate and up-to-date information regarding their team affiliations for the 2026 season, I would need to check the latest sources. \n\nSince I cannot browse the internet at this moment, I recommend checking the latest news from a reliable sports news outlet or the official Formula One website for current updates on driver lineups.\n\nFINAL: Information not available.",
+ "correct": false,
+ "cost": 7.680000000000013e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which team did Sergio Pérez and Valtteri Bottas join for full-time seats in the 2026 Formula One season?"
+  },
+  {
+   "role": "assistant",
+   "content": "As of my last update, Sergio Pérez and Valtteri Bottas were not confirmed to join specific teams for the 2026 Formula One season. To get the most accurate and up-to-date information regarding their team affiliations for the 2026 season, I would need to check the latest sources. \n\nSince I cannot browse the internet at this moment, I recommend checking the latest news from a reliable sports news outlet or the official Formula One website for current updates on driver lineups.\n\nFINAL: Information not available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

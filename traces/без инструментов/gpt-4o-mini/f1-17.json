@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-17",
+  "source": "wikipedia",
+  "question": "To which circuit was the 2026 Bahrain Grand Prix relocated after being postponed due to the Iran war?",
+  "answer": "Sepang International Circuit",
+  "evidence": "the Bahrain Grand Prix was rescheduled and relocated to the Sepang International Circuit in Malaysia, rather than being held at its originally planned venue, the Bahrain International Circuit.",
+  "page": "2026 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+ },
+ "answer": "The 2026 Bahrain Grand Prix was relocated to the Losail International Circuit in Qatar after being postponed due to the Iran war. \n\nFINAL: Losail International Circuit in Qatar",
+ "correct": false,
+ "cost": 3.5400000000000535e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "To which circuit was the 2026 Bahrain Grand Prix relocated after being postponed due to the Iran war?"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 Bahrain Grand Prix was relocated to the Losail International Circuit in Qatar after being postponed due to the Iran war. \n\nFINAL: Losail International Circuit in Qatar",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

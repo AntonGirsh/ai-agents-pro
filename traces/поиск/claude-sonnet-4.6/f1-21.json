@@ -1,0 +1,74 @@
+{
+ "task": {
+  "id": "f1-21",
+  "source": "wikipedia",
+  "question": "Who won the Austrian Grand Prix in 2025?",
+  "answer": "Norris",
+  "evidence": "Norris fends off Piastri for Austrian GP victory in thrilling race-long battle.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "**Lando Norris** won the 2025 Austrian Grand Prix! 🏆\n\nDriving for **McLaren**, Norris took both pole position and the race victory at the Red Bull Ring in Spielberg on **June 29, 2025**. He finished ahead of his teammate **Oscar Piastri** in second place and **Charles Leclerc** (Ferrari) in third. It was McLaren's first win in Austria since 2001.\n\nFINAL: Lando Norris",
+ "correct": true,
+ "cost": 0.015872999999999804,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the Austrian Grand Prix in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_017HV2eS8KJ6fLF3Aex5B5yN",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2025 Austrian Grand Prix winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_017HV2eS8KJ6fLF3Aex5B5yN",
+   "content": "[2025 World Grand Prix (darts)] <p>The <b>2025 World Grand Prix</b> (known for sponsorship reasons as the <b>2025 BOYLE Sports World Grand Prix</b>) was a professional darts tournament that was held at the Mattioli Arena in Leicester, England, from 6 to 12 October 2025. It was the 28th staging of the World Grand Prix by the Professional Darts Corporation (PDC). The total prize fund was £600,000, with the winner receiving £120,000. </p><p>The tournament, sponsored by BoyleSports and played in the \"double in, double out\" format, featured 32 players: the top 16 players on the two-year PDC Order of Merit and the top 16 players from the one-year PDC Pro Tour Order of Merit who had not yet qualified. Wessel Nijman and Niko Springer made their debuts at the event, while two-time runner-up Dave Chisnall missed out on qualification for the first time since 2011. Mike De Decker was the defending champion, having defeated Luke Humphries 6–4 in the 2024 final, but he lost 3–0 to Luke Littler in the second round. </p><p>Littler won the tournament and the first World Grand Prix title of his career by defeating Humphries 6–1 in the final. Gian van Veen broke the record for the highest three-dart average in World Grand Prix history, averaging 106.47 in defeat as he lost 2–0 to Littler in the first round. </p> <h2 data-mw-anchor=\"Overview\" data-mw-wikitext=\"\">Overview</h2> <h3 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h3> <p>The 2025 World Grand Prix was the 28th edition of the tournament to be staged by the Professional Darts Corporation (PDC) since the 1998 edition. The tournament is unique as it is the only event in the darts calendar that uses the \"double in, double out\" format, in which players must start on a double or the bullseye to start scoring and do the same to win a leg. The inaugural edition in 1998 featured matches consisting of sets played to the best of three legs, with Phil Taylor winning the final 13–8 against Rod Harrington. After first serving "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_01SEKCedXgLpXnsg5oKLHBNv",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2025 Austrian Grand Prix Formula 1 result\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_01SEKCedXgLpXnsg5oKLHBNv",
+   "content": "[2025 Austrian Grand Prix] <p class=\"mw-empty-elt\"> </p> <p>The <b>2025 Austrian Grand Prix</b> (officially known as the <b>Formula 1 MSC Cruises Austrian Grand Prix 2025</b>) was a Formula One motor race held on 29 June 2025 at the Red Bull Ring in Spielberg, Styria. It was the eleventh round of the 2025 Formula One World Championship. Lando Norris of McLaren took pole position for the race, which he went on to win ahead of his teammate Oscar Piastri and Charles Leclerc of Ferrari. It was McLaren's first win in Austria since 2001. </p><p>The result enabled Norris to close the gap over Piastri to 15 points in the World Drivers' Championship. Following a first-lap-collision with Kimi Antonelli, Max Verstappen failed to score, meaning that his deficit to Piastri increased to 61 points, with George Russell nine points behind. Ferrari's third and fourth place finishes behind both McLaren drivers, saw them reclaim second place from Mercedes in the Constructors' Championship by a single point. Fourth-placed Red Bull (162 points) were 48 points adrift from Ferrari. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <p>The event was held at the Red Bull Ring in Spielberg for the 21st time in the circuit's history, having previously held two editions of the Styrian Grand Prix, across the weekend of 27–29 June. The Grand Prix was the eleventh round of the 2025 Formula One World Championship and the 38th running of the Austrian Grand Prix as a round of the Formula One World Championship. </p> <h3 data-mw-anchor=\"Championship_standings_before_the_race\" data-mw-wikitext=\"\">Championship standings before the race</h3> <p>Going into the weekend, Oscar Piastri led the Drivers' Championship with 198 points, twenty-two points ahead of his teammate Lando Norris in second, and 43 ahead of Max Verstappen in third. McLaren, with 374 points, led the Constructors' Championship from Mercedes and Ferrari, who are second and third with 199 and 183 points, respectively. </"
+  },
+  {
+   "role": "assistant",
+   "content": "**Lando Norris** won the 2025 Austrian Grand Prix! 🏆\n\nDriving for **McLaren**, Norris took both pole position and the race victory at the Red Bull Ring in Spielberg on **June 29, 2025**. He finished ahead of his teammate **Oscar Piastri** in second place and **Charles Leclerc** (Ferrari) in third. It was McLaren's first win in Austria since 2001.\n\nFINAL: Lando Norris",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

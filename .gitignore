@@ -3,11 +3,18 @@
 
 # Виртуальное окружение
 .venv/
-venv/
-env/
 
 # Мусор от Jupyter
 .ipynb_checkpoints/
 
 # лекции
 lectures/
+
+# прочее
+check_fresh.py
+chech_setup.py
+fetch_fresh.py
+.__pycache__/
+check_setup.ipynb
+*.png
+*.csv

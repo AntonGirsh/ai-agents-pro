@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-08",
+  "source": "wikipedia",
+  "question": "What grid position did Max Verstappen start from at the 2026 Australian Grand Prix following a crash in qualifying?",
+  "answer": "20th",
+  "evidence": "Max Verstappen recovered from 20th on the grid, due to a crash in qualifying, to finish sixth, ahead of Oliver Bearman and rookie Arvid Lindblad.",
+  "page": "2026 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+ },
+ "answer": "I don't have access to real-time data or events occurring after my training cut-off in October 2023, including specific details about the 2026 Australian Grand Prix. You might want to check the latest news or official Formula 1 sources for the most accurate information.\n\nFINAL: Неизвестно.",
+ "correct": false,
+ "cost": 5.129999999999978e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What grid position did Max Verstappen start from at the 2026 Australian Grand Prix following a crash in qualifying?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have access to real-time data or events occurring after my training cut-off in October 2023, including specific details about the 2026 Australian Grand Prix. You might want to check the latest news or official Formula 1 sources for the most accurate information.\n\nFINAL: Неизвестно.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

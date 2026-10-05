@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-38",
+  "source": "wikipedia",
+  "question": "Who replaced Isack Hadjar at Racing Bulls for the 2026 Formula One season?",
+  "answer": "Arvid Lindblad",
+  "evidence": "Hadjar's replacement was Arvid Lindblad, who was promoted from Formula 2.",
+  "page": "2026 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+ },
+ "answer": "I don't have reliable information about 2026 Formula One driver lineups in my training data. This is about future events beyond my knowledge cutoff, and driver confirmations for 2026 may not have been finalized or may have changed.\n\nTo find this information, I'd recommend checking:\n- Official Formula One website (formula1.com)\n- Current Racing Bulls/AlphaTauri official announcements\n- Recent Formula One news from reputable motorsports outlets like Motorsport.com, Autosport, or ESPN F1\n\nFINAL: I cannot provide this information as it relates to future events beyond my knowledge cutoff.",
+ "correct": false,
+ "cost": 0.0008340000000000014,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who replaced Isack Hadjar at Racing Bulls for the 2026 Formula One season?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable information about 2026 Formula One driver lineups in my training data. This is about future events beyond my knowledge cutoff, and driver confirmations for 2026 may not have been finalized or may have changed.\n\nTo find this information, I'd recommend checking:\n- Official Formula One website (formula1.com)\n- Current Racing Bulls/AlphaTauri official announcements\n- Recent Formula One news from reputable motorsports outlets like Motorsport.com, Autosport, or ESPN F1\n\nFINAL: I cannot provide this information as it relates to future events beyond my knowledge cutoff.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

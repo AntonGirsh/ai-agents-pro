@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-22",
+  "source": "wikipedia",
+  "question": "The podium at the 2026 Barcelona-Catalunya Grand Prix was the first all-British Formula One podium since which year?",
+  "answer": "1968",
+  "evidence": "Russell finished second, with Lando Norris third, producing the first all-British Formula One podium since the 1968 United States Grand Prix.",
+  "page": "2026 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+ },
+ "answer": "The first all-British Formula One podium prior to the 2026 Barcelona-Catalunya Grand Prix was in 1983. \n\nFINAL: 1983",
+ "correct": false,
+ "cost": 3.5099999999999715e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "The podium at the 2026 Barcelona-Catalunya Grand Prix was the first all-British Formula One podium since which year?"
+  },
+  {
+   "role": "assistant",
+   "content": "The first all-British Formula One podium prior to the 2026 Barcelona-Catalunya Grand Prix was in 1983. \n\nFINAL: 1983",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

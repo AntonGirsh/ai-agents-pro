@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-36",
+  "source": "wikipedia",
+  "question": "Who won the 2026 Formula One World Drivers' Championship?",
+  "answer": "Kimi Antonelli",
+  "evidence": "The championship concluded with Kimi Antonelli winning the title, becoming Italy's first Drivers' Champion since 1953.",
+  "page": "2026 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+ },
+ "answer": "As of my knowledge cutoff in early 2025, the 2026 Formula One season has not yet taken place. I cannot know the outcome of future events.\n\nFINAL: The 2026 Formula One World Drivers' Championship has not yet occurred as of my knowledge cutoff.",
+ "correct": false,
+ "cost": 0.001346999999999987,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Formula One World Drivers' Championship?"
+  },
+  {
+   "role": "assistant",
+   "content": "As of my knowledge cutoff in early 2025, the 2026 Formula One season has not yet taken place. I cannot know the outcome of future events.\n\nFINAL: The 2026 Formula One World Drivers' Championship has not yet occurred as of my knowledge cutoff.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

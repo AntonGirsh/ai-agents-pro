@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "f1-21",
+  "source": "wikipedia",
+  "question": "Who won the Austrian Grand Prix in 2025?",
+  "answer": "Norris",
+  "evidence": "Norris fends off Piastri for Austrian GP victory in thrilling race-long battle.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "Lando Norris won the 2025 Austrian Grand Prix. FINAL: Lando Norris",
+ "correct": true,
+ "cost": 0.0001726499999999999,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the Austrian Grand Prix in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ajgr2u0uyMYkyTpSTxGlyipF",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2025 Austrian Grand Prix\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ajgr2u0uyMYkyTpSTxGlyipF",
+   "content": "[2025 Austrian Grand Prix] <p class=\"mw-empty-elt\"> </p> <p>The <b>2025 Austrian Grand Prix</b> (officially known as the <b>Formula 1 MSC Cruises Austrian Grand Prix 2025</b>) was a Formula One motor race held on 29 June 2025 at the Red Bull Ring in Spielberg, Styria. It was the eleventh round of the 2025 Formula One World Championship. Lando Norris of McLaren took pole position for the race, which he went on to win ahead of his teammate Oscar Piastri and Charles Leclerc of Ferrari. It was McLaren's first win in Austria since 2001. </p><p>The result enabled Norris to close the gap over Piastri to 15 points in the World Drivers' Championship. Following a first-lap-collision with Kimi Antonelli, Max Verstappen failed to score, meaning that his deficit to Piastri increased to 61 points, with George Russell nine points behind. Ferrari's third and fourth place finishes behind both McLaren drivers, saw them reclaim second place from Mercedes in the Constructors' Championship by a single point. Fourth-placed Red Bull (162 points) were 48 points adrift from Ferrari. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <p>The event was held at the Red Bull Ring in Spielberg for the 21st time in the circuit's history, having previously held two editions of the Styrian Grand Prix, across the weekend of 27–29 June. The Grand Prix was the eleventh round of the 2025 Formula One World Championship and the 38th running of the Austrian Grand Prix as a round of the Formula One World Championship. </p> <h3 data-mw-anchor=\"Championship_standings_before_the_race\" data-mw-wikitext=\"\">Championship standings before the race</h3> <p>Going into the weekend, Oscar Piastri led the Drivers' Championship with 198 points, twenty-two points ahead of his teammate Lando Norris in second, and 43 ahead of Max Verstappen in third. McLaren, with 374 points, led the Constructors' Championship from Mercedes and Ferrari, who are second and third with 199 and 183 points, respectively. </"
+  },
+  {
+   "role": "assistant",
+   "content": "Lando Norris won the 2025 Austrian Grand Prix. FINAL: Lando Norris",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

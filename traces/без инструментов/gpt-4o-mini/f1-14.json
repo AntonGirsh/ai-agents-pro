@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-14",
+  "source": "wikipedia",
+  "question": "Who took pole position for the sprint race at the 2025 Miami Grand Prix?",
+  "answer": "Antonelli",
+  "evidence": "Antonelli storms to remarkable maiden pole ahead of Piastri and Norris during Sprint Qualifying in Miami.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "FINAL: Not available, as the event is in the future.",
+ "correct": false,
+ "cost": 2.160000000000009e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who took pole position for the sprint race at the 2025 Miami Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Not available, as the event is in the future.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

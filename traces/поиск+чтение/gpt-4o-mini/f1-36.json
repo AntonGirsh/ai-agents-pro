@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "f1-36",
+  "source": "wikipedia",
+  "question": "Who won the 2026 Formula One World Drivers' Championship?",
+  "answer": "Kimi Antonelli",
+  "evidence": "The championship concluded with Kimi Antonelli winning the title, becoming Italy's first Drivers' Champion since 1953.",
+  "page": "2026 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+ },
+ "answer": "Lando Norris is the reigning World Drivers' Champion for the 2026 Formula One World Championship. \n\nFINAL: Lando Norris",
+ "correct": false,
+ "cost": 0.00017354999999999454,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Formula One World Drivers' Championship?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ogTkb6qF1Od3L0Hd8F8XDl2i",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Formula One World Drivers' Championship winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ogTkb6qF1Od3L0Hd8F8XDl2i",
+   "content": "[2026 Formula One World Championship] <p> </p> <p>The <b>2026 FIA Formula One World Championship</b> is a motor racing championship for Formula One cars and the 77th running of the Formula One World Championship. It is recognised by the Fédération Internationale de l'Automobile (FIA), the governing body of international motorsport, as the highest class of competition for open-wheel racing cars. The championship is contested over twenty-three Grands Prix held around the world. It began in March and is scheduled to end in December. Drivers and teams compete for the titles of World Drivers' Champion and World Constructors' Champion, respectively. Lando Norris is the reigning World Drivers' Champion, while McLaren-Mercedes are the reigning World Constructors' Champions. </p><p>The 2026 season features a major set of regulation changes with a revised power unit configuration and new active aerodynamics along with the addition of an eleventh team competing for the first time since 2016. Audi, who acquired Sauber in 2024, enter as a works team with its own power unit, while Cadillac are making their debut in the championship using Ferrari power units. Honda, through its Honda Racing Corporation subsidiary, entered into an exclusive works team agreement with Aston Martin, and are supplying them with their own power unit after ending its relationship with Red Bull Racing. Ford returned to the sport for the first time since 2004, supporting Red Bull Powertrains in supplying power units to Red Bull Racing and Racing Bulls. Renault is no longer an engine supplier as Alpine switched to Mercedes power units. </p> <h2 data-mw-anchor=\"Entries\" data-mw-wikitext=\"\">Entries</h2> <p>Each team is required to enter at least two drivers, one for each of the two mandatory cars. All teams compete with tyres supplied by Pirelli. </p> <h3 data-mw-anchor=\"Free_practice_drivers\" data-mw-wikitext=\"\">Free practice drivers</h3> <p>On four occasions throughout the season (twice for each car), each "
+  },
+  {
+   "role": "assistant",
+   "content": "Lando Norris is the reigning World Drivers' Champion for the 2026 Formula One World Championship. \n\nFINAL: Lando Norris",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

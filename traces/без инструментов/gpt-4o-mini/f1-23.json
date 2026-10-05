@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-23",
+  "source": "wikipedia",
+  "question": "Who won the Belgian Grand Prix in 2025?",
+  "answer": "Piastri",
+  "evidence": "Piastri wins wet-dry Belgian GP after late pressure from title rival and McLaren team mate Norris.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "Я не могу предоставить информацию о событиях, произошедших после октября 2023 года. Поэтому я не знаю, кто выиграл Гран-при Бельгии в 2025 году. \n\nFINAL: Неизвестно.",
+ "correct": false,
+ "cost": 4.2300000000000323e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the Belgian Grand Prix in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": "Я не могу предоставить информацию о событиях, произошедших после октября 2023 года. Поэтому я не знаю, кто выиграл Гран-при Бельгии в 2025 году. \n\nFINAL: Неизвестно.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-24",
+  "source": "wikipedia",
+  "question": "Who won the Hungarian Grand Prix in 2025?",
+  "answer": "Norris",
+  "evidence": "Norris beats Piastri to win thrilling Hungarian GP.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "I cannot provide information on events that occurred after my last knowledge update in October 2023. You will need to check the latest sources for current data about the Hungarian Grand Prix in 2025. \n\nFINAL: Unknown.",
+ "correct": false,
+ "cost": 3.989999999999983e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the Hungarian Grand Prix in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": "I cannot provide information on events that occurred after my last knowledge update in October 2023. You will need to check the latest sources for current data about the Hungarian Grand Prix in 2025. \n\nFINAL: Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

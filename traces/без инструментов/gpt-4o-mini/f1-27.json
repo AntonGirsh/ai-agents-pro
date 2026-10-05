@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-27",
+  "source": "wikipedia",
+  "question": "Who won the Azerbaijan Grand Prix in 2025?",
+  "answer": "Verstappen",
+  "evidence": "Verstappen claims dominant Azerbaijan win over Russell and Sainz after Piastri crashes out.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "У меня нет информации о Гран-при Азербайджана 2025 года, так как мои данные актуальны только до октября 2023 года. Поэтому я не могу предоставить ответ на этот вопрос. \n\nFINAL: Информация недоступна.",
+ "correct": false,
+ "cost": 4.410000000000004e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the Azerbaijan Grand Prix in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": "У меня нет информации о Гран-при Азербайджана 2025 года, так как мои данные актуальны только до октября 2023 года. Поэтому я не могу предоставить ответ на этот вопрос. \n\nFINAL: Информация недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

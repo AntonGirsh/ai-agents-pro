@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-40",
+  "source": "wikipedia",
+  "question": "Who substituted for Isack Hadjar at Red Bull Racing during the Dutch, Italian and Spanish Grands Prix in 2026?",
+  "answer": "Liam Lawson",
+  "evidence": "Prior to the Dutch Grand Prix, Isack Hadjar sustained a wrist injury. Racing Bulls driver Liam Lawson substituted for him, while Lawson was replaced at Racing Bulls by reserve driver Yuki Tsunoda.",
+  "page": "2026 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+ },
+ "answer": "I don't have reliable information about Formula 1 driver substitutions for the 2026 season in my training data. Since 2026 is in the future relative to my knowledge cutoff, I cannot provide accurate information about who substituted for Isack Hadjar at Red Bull Racing during those specific races.\n\nTo get this information, I'd recommend:\n- Checking official Formula 1 or Red Bull Racing websites\n- Looking at current sports news sources\n- Visiting Formula 1 racing databases\n\nI apologize that I cannot provide the specific answer you're looking for.",
+ "correct": false,
+ "cost": 0.0007769999999999999,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who substituted for Isack Hadjar at Red Bull Racing during the Dutch, Italian and Spanish Grands Prix in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable information about Formula 1 driver substitutions for the 2026 season in my training data. Since 2026 is in the future relative to my knowledge cutoff, I cannot provide accurate information about who substituted for Isack Hadjar at Red Bull Racing during those specific races.\n\nTo get this information, I'd recommend:\n- Checking official Formula 1 or Red Bull Racing websites\n- Looking at current sports news sources\n- Visiting Formula 1 racing databases\n\nI apologize that I cannot provide the specific answer you're looking for.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

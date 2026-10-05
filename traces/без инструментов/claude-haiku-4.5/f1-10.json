@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-10",
+  "source": "wikipedia",
+  "question": "Why was Oscar Piastri unable to start the 2026 Australian Grand Prix?",
+  "answer": "crashed while driving to the grid",
+  "evidence": "Reigning World Champion Lando Norris finished fifth for McLaren, having been the team's only starter after Oscar Piastri crashed while driving to the grid before the race.",
+  "page": "2026 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+ },
+ "answer": "I don't have reliable information about Oscar Piastri being unable to start the 2026 Australian Grand Prix. This is a future event (from my knowledge cutoff in April 2024), so I cannot provide accurate details about what may or may not happen then.\n\nIf you're asking about a specific incident that has already occurred, could you clarify the date or provide more context? Alternatively, if this is a hypothetical question or related to a specific source, let me know and I can try to help better.\n\nFINAL: I cannot provide information about this event as it's beyond my knowledge cutoff or requires current information I don't have access to.",
+ "correct": false,
+ "cost": 0.0008420000000000094,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Why was Oscar Piastri unable to start the 2026 Australian Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable information about Oscar Piastri being unable to start the 2026 Australian Grand Prix. This is a future event (from my knowledge cutoff in April 2024), so I cannot provide accurate details about what may or may not happen then.\n\nIf you're asking about a specific incident that has already occurred, could you clarify the date or provide more context? Alternatively, if this is a hypothetical question or related to a specific source, let me know and I can try to help better.\n\nFINAL: I cannot provide information about this event as it's beyond my knowledge cutoff or requires current information I don't have access to.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

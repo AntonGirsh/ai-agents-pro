@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-39",
+  "source": "wikipedia",
+  "question": "What was the maximum number of laps allowed per set of tyres at the 2025 Qatar Grand Prix?",
+  "answer": "25",
+  "evidence": "In response to concerns regarding damage to the tyres during the Qatar Grand Prix, a limit of 25 laps was introduced for each set of tyres.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "I cannot browse the internet for real-time data updates or forecasts for events that have occurred after my last training cut-off in October 2023. For the maximum number of laps allowed per set of tyres at the 2025 Qatar Grand Prix, you would need to refer to the official Formula 1 regulations or the specific event details released by the FIA or Formula 1. \n\nFINAL: Unable to provide information.",
+ "correct": false,
+ "cost": 6.41999999999995e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the maximum number of laps allowed per set of tyres at the 2025 Qatar Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "I cannot browse the internet for real-time data updates or forecasts for events that have occurred after my last training cut-off in October 2023. For the maximum number of laps allowed per set of tyres at the 2025 Qatar Grand Prix, you would need to refer to the official Formula 1 regulations or the specific event details released by the FIA or Formula 1. \n\nFINAL: Unable to provide information.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-35",
+  "source": "wikipedia",
+  "question": "Who won the Abu Dhabi Grand Prix in 2025?",
+  "answer": "Verstappen",
+  "evidence": "Norris secures maiden F1 title in Abu Dhabi with podium finish behind Verstappen and Piastri.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "У меня нет информации о победителе Гран-при Абу-Даби 2025 года, так как мои данные обновлены только до октября 2023 года. FINAL: Нет информации.",
+ "correct": false,
+ "cost": 3.705000000000028e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the Abu Dhabi Grand Prix in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": "У меня нет информации о победителе Гран-при Абу-Даби 2025 года, так как мои данные обновлены только до октября 2023 года. FINAL: Нет информации.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

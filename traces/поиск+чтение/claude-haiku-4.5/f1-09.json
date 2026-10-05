@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "f1-09",
+  "source": "wikipedia",
+  "question": "Who won the Chinese Grand Prix sprint race in 2025?",
+  "answer": "Hamilton",
+  "evidence": "Hamilton storms to Sprint victory and first Ferrari win in China ahead of Verstappen and Piastri.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "Based on the search results, **Lewis Hamilton** won the Chinese Grand Prix sprint race in 2025. He was driving for Ferrari, took sprint pole position, and kept the lead to win the sprint ahead of Oscar Piastri (McLaren) and Max Verstappen (Red Bull).\n\nFINAL: Lewis Hamilton",
+ "correct": true,
+ "cost": 0.005334999999999979,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the Chinese Grand Prix sprint race in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the 2025 Chinese Grand Prix sprint race.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01Mhs2HeigMFtve3WB4DEosq",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Chinese Grand Prix 2025 sprint race winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Mhs2HeigMFtve3WB4DEosq",
+   "content": "[2025 Chinese Grand Prix] <p class=\"mw-empty-elt\"> </p> <p>The <b>2025 Chinese Grand Prix</b> (officially known as the <b>Formula 1 Heineken Chinese Grand Prix 2025</b>) was a Formula One motor race that was held on 23 March 2025 at the Shanghai International Circuit in Shanghai, China. It was the second round of the 2025 Formula One World Championship and the first of six Grands Prix in the season to utilise the sprint format. </p><p>Lewis Hamilton in the Ferrari took sprint pole position and kept the lead to win the sprint ahead of Oscar Piastri (McLaren) and Red Bull driver Max Verstappen. Piastri took his maiden career pole position for the main race, ahead of George Russell driving for Mercedes and teammate Lando Norris. </p><p>In the main race, Piastri converted his pole position to a win ahead of teammate Norris and Russell. Following the race, Charles Leclerc, Lewis Hamilton and Pierre Gasly were disqualified from fifth, sixth and eleventh respectively. Leclerc and Gasly were disqualified due to their cars being underweight, whilst Hamilton was disqualified due to excessive plank wear. </p><p>The result meant that Norris extended his lead in the Drivers' Championship to eight points over Verstappen, with Russell a further point adrift in third. Following his first win of the season, Piastri moved to fourth with 34 points. McLaren extended their lead in the Constructors' Championship to 21 points over Mercedes, while Red Bull remained in third with 36 points. Despite the double disqualification, Ferrari progressed to fifth with 17 points, the same amount with Williams in fourth. Prior to the 2026 Dutch Grand Prix, this race marked Liam Lawson's most recent start for the senior Red Bull team. Following two consecutive pointless races, Lawson was swapped with Yuki Tsunoda from the following Japanese Grand Prix onward. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <p>The event took place across the weekend of 21–23 March and was the 18"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, **Lewis Hamilton** won the Chinese Grand Prix sprint race in 2025. He was driving for Ferrari, took sprint pole position, and kept the lead to win the sprint ahead of Oscar Piastri (McLaren) and Max Verstappen (Red Bull).\n\nFINAL: Lewis Hamilton",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

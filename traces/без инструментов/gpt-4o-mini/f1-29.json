@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-29",
+  "source": "wikipedia",
+  "question": "Who won the United States Grand Prix in 2025?",
+  "answer": "Verstappen",
+  "evidence": "Verstappen surges to commanding victory in US GP ahead of Norris and Leclerc.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "Учитывая, что моя база данных обновлена только до октября 2023 года, я не располагаю информацией о победителе Гран-при США 2025 года. FINAL: Информация недоступна.",
+ "correct": false,
+ "cost": 4.0649999999999714e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the United States Grand Prix in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": "Учитывая, что моя база данных обновлена только до октября 2023 года, я не располагаю информацией о победителе Гран-при США 2025 года. FINAL: Информация недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

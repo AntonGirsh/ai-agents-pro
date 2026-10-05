@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-40",
+  "source": "wikipedia",
+  "question": "Who substituted for Isack Hadjar at Red Bull Racing during the Dutch, Italian and Spanish Grands Prix in 2026?",
+  "answer": "Liam Lawson",
+  "evidence": "Prior to the Dutch Grand Prix, Isack Hadjar sustained a wrist injury. Racing Bulls driver Liam Lawson substituted for him, while Lawson was replaced at Racing Bulls by reserve driver Yuki Tsunoda.",
+  "page": "2026 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+ },
+ "answer": "I'm unable to provide real-time updates or forecasted events in Formula 1 for 2026 as my information is current only up to October 2023. Therefore, I don't have the details on who substituted for Isack Hadjar at Red Bull Racing during those specific Grands Prix. \n\nFINAL: Unknown",
+ "correct": false,
+ "cost": 5.234999999999962e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who substituted for Isack Hadjar at Red Bull Racing during the Dutch, Italian and Spanish Grands Prix in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'm unable to provide real-time updates or forecasted events in Formula 1 for 2026 as my information is current only up to October 2023. Therefore, I don't have the details on who substituted for Isack Hadjar at Red Bull Racing during those specific Grands Prix. \n\nFINAL: Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

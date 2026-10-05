@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-04",
+  "source": "wikipedia",
+  "question": "Who became the new Formula One championship leader after winning the 2025 Saudi Arabian Grand Prix?",
+  "answer": "Piastri",
+  "evidence": "Piastri clinches victory in Saudi Arabia from Verstappen and Leclerc as McLaren driver becomes new championship leader.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "Oscar Piastri won the 2025 Saudi Arabian Grand Prix and became the new Formula One championship leader.\n\nFINAL: Oscar Piastri",
+ "correct": true,
+ "cost": 0.0009270000000000111,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who became the new Formula One championship leader after winning the 2025 Saudi Arabian Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "Oscar Piastri won the 2025 Saudi Arabian Grand Prix and became the new Formula One championship leader.\n\nFINAL: Oscar Piastri",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "task": {
+  "id": "f1-24",
+  "source": "wikipedia",
+  "question": "Who won the Hungarian Grand Prix in 2025?",
+  "answer": "Norris",
+  "evidence": "Norris beats Piastri to win thrilling Hungarian GP.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "Lando Norris won the 2025 Hungarian Grand Prix. FINAL: Lando Norris",
+ "correct": true,
+ "cost": 0.0005757000000000019,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the Hungarian Grand Prix in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9OV7euVOl8vNTl4OH0WElBJP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2025 Hungarian Grand Prix winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9OV7euVOl8vNTl4OH0WElBJP",
+   "content": "[2025 World Grand Prix (darts)] <p>The <b>2025 World Grand Prix</b> (known for sponsorship reasons as the <b>2025 BOYLE Sports World Grand Prix</b>) was a professional darts tournament that was held at the Mattioli Arena in Leicester, England, from 6 to 12 October 2025. It was the 28th staging of the World Grand Prix by the Professional Darts Corporation (PDC). The total prize fund was £600,000, with the winner receiving £120,000. </p><p>The tournament, sponsored by BoyleSports and played in the \"double in, double out\" format, featured 32 players: the top 16 players on the two-year PDC Order of Merit and the top 16 players from the one-year PDC Pro Tour Order of Merit who had not yet qualified. Wessel Nijman and Niko Springer made their debuts at the event, while two-time runner-up Dave Chisnall missed out on qualification for the first time since 2011. Mike De Decker was the defending champion, having defeated Luke Humphries 6–4 in the 2024 final, but he lost 3–0 to Luke Littler in the second round. </p><p>Littler won the tournament and the first World Grand Prix title of his career by defeating Humphries 6–1 in the final. Gian van Veen broke the record for the highest three-dart average in World Grand Prix history, averaging 106.47 in defeat as he lost 2–0 to Littler in the first round. </p> <h2 data-mw-anchor=\"Overview\" data-mw-wikitext=\"\">Overview</h2> <h3 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h3> <p>The 2025 World Grand Prix was the 28th edition of the tournament to be staged by the Professional Darts Corporation (PDC) since the 1998 edition. The tournament is unique as it is the only event in the darts calendar that uses the \"double in, double out\" format, in which players must start on a double or the bullseye to start scoring and do the same to win a leg. The inaugural edition in 1998 featured matches consisting of sets played to the best of three legs, with Phil Taylor winning the final 13–8 against Rod Harrington. After first serving "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_URRtrZz4f6WQeOJXxOWvzWXR",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2025 Formula 1 Hungarian Grand Prix winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_URRtrZz4f6WQeOJXxOWvzWXR",
+   "content": "[List of Formula One Grand Prix winners] <p class=\"mw-empty-elt\"> </p> <p>Formula One (F1) is the highest class of open-wheeled motor racing defined by the Fédération Internationale de l'Automobile (FIA), motorsport's world governing body. The F1 World Championship season consists of a series of races, known as Grands Prix, held usually on purpose-built circuits, and in a few cases on closed city streets. Each winner is presented with a trophy and the results of each race are combined to determine two annual Championships, one for drivers and one for constructors. The World Championship for Drivers has been contended since 1950, after the Formula One standard was agreed upon in 1946. The Constructors' Championship was added for the 1958 season and has been awarded ever since. </p> <p>Lewis Hamilton holds the record for the most race wins in Formula One history, with 106 wins to date. Michael Schumacher, the previous record holder, is second with 91 wins, and Max Verstappen is third with 72 victories. Hamilton also holds the distinction of having the longest time between his first win and his last. He won his first Grand Prix at the 2007 Canadian Grand Prix, and his last at the 2026 Barcelona-Catalunya Grand Prix, a span of 19 years and 4 days. Riccardo Patrese holds the record for the longest period of time between two race wins – more than six-and-a-half years between the 1983 South African Grand Prix and the 1990 San Marino Grand Prix. Mario Andretti had to wait the longest time between his maiden victory at the 1971 South African Grand Prix and his second win – coming five years, seven months and 18 days later at the 1976 Japanese Grand Prix. Verstappen holds the record for the most consecutive wins, having won ten Grands Prix in a row from the 2023 Miami Grand Prix to the 2023 Italian Grand Prix. Verstappen is also the youngest winner of a Grand Prix; he was 18 years and 228 days old when he won the 2016 Spanish Grand Prix. Luigi Fagioli is the oldest winner of "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_70XCcaky5IkWM1eZt8SYobeo",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2025 Hungarian Grand Prix results\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_70XCcaky5IkWM1eZt8SYobeo",
+   "content": "[2025 Hungarian Grand Prix] <p class=\"mw-empty-elt\"> </p> <p>The <b>2025 Hungarian Grand Prix</b> (officially known as the <b>Formula 1 Lenovo Hungarian Grand Prix 2025</b>) was a Formula One motor race that took place on 3 August 2025 at the Hungaroring in Mogyoród, Hungary. It was the fourteenth round of the 2025 Formula One World Championship. Charles Leclerc took pole position for the race in the Ferrari, but lost out to Lando Norris, who won the race to give McLaren their 200th Formula One victory. Norris's teammate Oscar Piastri and George Russell of Mercedes rounded out the podium. </p><p>The top five remained unchanged for both the Drivers' and Constructors' Championship, with Norris reducing the gap to nine points over Piastri following his fifth win of the season. Max Verstappen remained in third with 187 points, but only 15 points ahead of Russell, with Leclerc a further 21 points behind. McLaren extended their lead to 299 points over Ferrari in second, with Mercedes a further 24 points behind in third. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <p>The event was held at the Hungaroring in Mogyoród for the 40th time in the circuit's history, across the weekend of 1–3 August. The Grand Prix was the fourteenth round of the 2025 Formula One World Championship and the 40th running of the Hungarian Grand Prix as part of the Formula One World Championship. </p> <h3 data-mw-anchor=\"Championship_standings_before_the_race\" data-mw-wikitext=\"\">Championship standings before the race</h3> <p>Going into the weekend, Oscar Piastri led the Drivers' Championship with 266 points, 16 points ahead of teammate Lando Norris in second and 65 ahead of Max Verstappen in third. McLaren, with 516 points, led the Constructors' Championship from Ferrari and Mercedes, who were second and third with 248 and 220 points, respectively. </p> <h3 data-mw-anchor=\"Entrants\" data-mw-wikitext=\"\">Entrants</h3> <p>The drivers and teams were the same as published in t"
+  },
+  {
+   "role": "assistant",
+   "content": "Lando Norris won the 2025 Hungarian Grand Prix. FINAL: Lando Norris",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

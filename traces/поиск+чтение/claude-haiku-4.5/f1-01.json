@@ -1,0 +1,74 @@
+{
+ "task": {
+  "id": "f1-01",
+  "source": "wikipedia",
+  "question": "Who won the 2025 Formula One World Drivers' Championship?",
+  "answer": "Lando Norris",
+  "evidence": "The season saw Lando Norris win his first drivers' title in his seventh season in the sport, ending the four-year reign of Max Verstappen as champion.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "Perfect! I found the information.\n\nFINAL: Lando Norris won the 2025 Formula One World Drivers' Championship.",
+ "correct": true,
+ "cost": 0.007741999999999971,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2025 Formula One World Drivers' Championship?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the 2025 Formula One World Drivers' Championship.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01DzB3gD9JrLa95gFhUNcTAh",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2025 Formula One World Drivers' Championship winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01DzB3gD9JrLa95gFhUNcTAh",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try again:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_019ChNdmkxxDah56dm8MPSBV",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2025 F1 champion driver\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_019ChNdmkxxDah56dm8MPSBV",
+   "content": "[List of Formula One World Drivers' Champions] <p class=\"mw-empty-elt\"> </p> <p>The World Drivers' Championship is presented by the Fédération Internationale de l'Automobile (FIA), motorsport's world governing body, to the most successful driver over the course of the season of Formula One races, through a points system based on individual race results. The World Championship is awarded at the FIA Prize Giving Ceremony after the season. </p><p>Michael Schumacher and Lewis Hamilton hold the record for the most World Drivers' championships—seven—trailed by Juan Manuel Fangio with five. Schumacher holds the record for the most consecutive titles: five, from the 2000 to 2004 seasons. Nigel Mansell competed in the most seasons before winning the title: 13; he entered Formula One in 1980 and won the title in 1992. Nico Rosberg has the highest number of Grand Prix starts before winning his first title: 206, from the 2006 Bahrain and the 2016 Abu Dhabi Grand Prix. Sebastian Vettel is the youngest champion; he was 23 years and 134 days old when he won in 2010. Juan Manuel Fangio is the oldest; he was 46 years and 41 days old when he won the 1957 title. </p><p>As of the 2026 season, the 76 titles have been won by 35 of the 782 drivers who have started a Grand Prix. The first champion was Giuseppe Farina, in 1950; the current title holder is Lando Norris in the 2025 season. The title has been won by 11 drivers from the United Kingdom a total of 21 times, more than any other nation, followed by Brazil, Finland, and Germany with three drivers each. The title has been won by drivers from Scuderia Ferrari 15 times between 9 drivers, more than any other team, followed by McLaren with 13 titles between 8 drivers. The championship has been won in the final race of the season 31 times in the 76 seasons it has been awarded. Schumacher won the championship with six races left in a season, a record: the 2002 title at that year's French Grand Prix. The points system has twice crowned a ch"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information.\n\nFINAL: Lando Norris won the 2025 Formula One World Drivers' Championship.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

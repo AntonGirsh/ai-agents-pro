@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-04",
+  "source": "wikipedia",
+  "question": "Who became the new Formula One championship leader after winning the 2025 Saudi Arabian Grand Prix?",
+  "answer": "Piastri",
+  "evidence": "Piastri clinches victory in Saudi Arabia from Verstappen and Leclerc as McLaren driver becomes new championship leader.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "I currently don't have information about events beyond October 2023, including the 2025 Saudi Arabian Grand Prix and its results. You may need to check recent sports news or official Formula One sources for the latest updates. \n\nFINAL: Неизвестно.",
+ "correct": false,
+ "cost": 4.5299999999999854e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who became the new Formula One championship leader after winning the 2025 Saudi Arabian Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "I currently don't have information about events beyond October 2023, including the 2025 Saudi Arabian Grand Prix and its results. You may need to check recent sports news or official Formula One sources for the latest updates. \n\nFINAL: Неизвестно.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

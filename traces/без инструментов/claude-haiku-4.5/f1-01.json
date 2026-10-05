@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-01",
+  "source": "wikipedia",
+  "question": "Who won the 2025 Formula One World Drivers' Championship?",
+  "answer": "Lando Norris",
+  "evidence": "The season saw Lando Norris win his first drivers' title in his seventh season in the sport, ending the four-year reign of Max Verstappen as champion.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "I don't have access to current information about the 2025 Formula One World Drivers' Championship, as my knowledge was last updated in April 2024. \n\nTo find out who won the 2025 F1 World Drivers' Championship, I recommend checking:\n- Official Formula 1 website (formula1.com)\n- Current sports news sites like ESPN, BBC Sport, or Sky Sports\n- Recent news articles from reliable sources\n\nIf you'd like, you can provide me with information about the 2025 season and I can help you analyze or discuss it!",
+ "correct": false,
+ "cost": 0.0007629999999999998,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2025 Formula One World Drivers' Championship?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have access to current information about the 2025 Formula One World Drivers' Championship, as my knowledge was last updated in April 2024. \n\nTo find out who won the 2025 F1 World Drivers' Championship, I recommend checking:\n- Official Formula 1 website (formula1.com)\n- Current sports news sites like ESPN, BBC Sport, or Sky Sports\n- Recent news articles from reliable sources\n\nIf you'd like, you can provide me with information about the 2025 season and I can help you analyze or discuss it!",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

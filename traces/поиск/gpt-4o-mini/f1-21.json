@@ -1,0 +1,118 @@
+{
+ "task": {
+  "id": "f1-21",
+  "source": "wikipedia",
+  "question": "Who won the Austrian Grand Prix in 2025?",
+  "answer": "Norris",
+  "evidence": "Norris fends off Piastri for Austrian GP victory in thrilling race-long battle.",
+  "page": "2025 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"
+ },
+ "answer": "Я не смог получить информацию о победителе Гран-при Австрии 2025 года. Рекомендую проверить актуальные спортивные новости или официальный сайт Формулы-1 для получения этой информации. \n\nFINAL: информация недоступна",
+ "correct": false,
+ "cost": 0.0005620500000000014,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the Austrian Grand Prix in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZqLg05Aa3bkgufeV4WtlN8A4",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Austrian Grand Prix 2025 winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZqLg05Aa3bkgufeV4WtlN8A4",
+   "content": "[2025 World Grand Prix (darts)] <p>The <b>2025 World Grand Prix</b> (known for sponsorship reasons as the <b>2025 BOYLE Sports World Grand Prix</b>) was a professional darts tournament that was held at the Mattioli Arena in Leicester, England, from 6 to 12 October 2025. It was the 28th staging of the World Grand Prix by the Professional Darts Corporation (PDC). The total prize fund was £600,000, with the winner receiving £120,000. </p><p>The tournament, sponsored by BoyleSports and played in the \"double in, double out\" format, featured 32 players: the top 16 players on the two-year PDC Order of Merit and the top 16 players from the one-year PDC Pro Tour Order of Merit who had not yet qualified. Wessel Nijman and Niko Springer made their debuts at the event, while two-time runner-up Dave Chisnall missed out on qualification for the first time since 2011. Mike De Decker was the defending champion, having defeated Luke Humphries 6–4 in the 2024 final, but he lost 3–0 to Luke Littler in the second round. </p><p>Littler won the tournament and the first World Grand Prix title of his career by defeating Humphries 6–1 in the final. Gian van Veen broke the record for the highest three-dart average in World Grand Prix history, averaging 106.47 in defeat as he lost 2–0 to Littler in the first round. </p> <h2 data-mw-anchor=\"Overview\" data-mw-wikitext=\"\">Overview</h2> <h3 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h3> <p>The 2025 World Grand Prix was the 28th edition of the tournament to be staged by the Professional Darts Corporation (PDC) since the 1998 edition. The tournament is unique as it is the only event in the darts calendar that uses the \"double in, double out\" format, in which players must start on a double or the bullseye to start scoring and do the same to win a leg. The inaugural edition in 1998 featured matches consisting of sets played to the best of three legs, with Phil Taylor winning the final 13–8 against Rod Harrington. After first serving "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_jGgdyx5HYpAhYkQvLQULZsqo",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"F1 2025 Austrian Grand Prix winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jGgdyx5HYpAhYkQvLQULZsqo",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_cMIXV1Zb6ix4Pdz06MCyJphw",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Austrian Grand Prix 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_cMIXV1Zb6ix4Pdz06MCyJphw",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_T40WmTjj9Filwuk82okrhm94",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Formula 1 Austrian Grand Prix 2025 winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_T40WmTjj9Filwuk82okrhm94",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": "Я не смог получить информацию о победителе Гран-при Австрии 2025 года. Рекомендую проверить актуальные спортивные новости или официальный сайт Формулы-1 для получения этой информации. \n\nFINAL: информация недоступна",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

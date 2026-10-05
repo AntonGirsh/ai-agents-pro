@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "f1-38",
+  "source": "wikipedia",
+  "question": "Who replaced Isack Hadjar at Racing Bulls for the 2026 Formula One season?",
+  "answer": "Arvid Lindblad",
+  "evidence": "Hadjar's replacement was Arvid Lindblad, who was promoted from Formula 2.",
+  "page": "2026 Formula One World Championship",
+  "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+ },
+ "answer": "I currently do not have access to future events or specific details about the 2026 Formula One season, as my training only includes data up to October 2023. Therefore, I cannot provide the name of the driver who replaced Isack Hadjar at Racing Bulls for that season. \n\nFINAL: Unknown",
+ "correct": false,
+ "cost": 5.05499999999999e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who replaced Isack Hadjar at Racing Bulls for the 2026 Formula One season?"
+  },
+  {
+   "role": "assistant",
+   "content": "I currently do not have access to future events or specific details about the 2026 Formula One season, as my training only includes data up to October 2023. Therefore, I cannot provide the name of the driver who replaced Isack Hadjar at Racing Bulls for that season. \n\nFINAL: Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
