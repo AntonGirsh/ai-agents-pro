@@ -16,5 +16,5 @@ chech_setup.py
 fetch_fresh.py
 .__pycache__/
 check_setup.ipynb
-*.png
+
 *.csv
