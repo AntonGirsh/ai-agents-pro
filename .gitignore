@@ -2,7 +2,7 @@
 .env
 
 # Виртуальное окружение
-.venv/
+venv/
 
 # Мусор от Jupyter
 .ipynb_checkpoints/
@@ -18,3 +18,5 @@ fetch_fresh.py
 check_setup.ipynb
 
 *.csv
+week2/
+milvus_local.db/
